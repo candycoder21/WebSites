@@ -4,7 +4,7 @@ body{
     background-size: cover;
     font-family: 'Limelight', cursive;
 	color: white;
-    padding: 30px;
+
 }
 .col{
   background-color:rgba(148,0,211,0.3);
@@ -39,9 +39,9 @@ body{
 	margin-top: 0;
 	padding-bottom: 7em;
 }
-@media(max-width: 550px){
+@media(max-width: 600px){
 	#survey-form{
-		margin:0;
+		margin:0%;
 	}
 }
 .name,p{

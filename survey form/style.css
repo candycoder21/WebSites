@@ -35,17 +35,27 @@ body{
 	/*width: 50%;
 	height:100%;*/
 	background-color: rgba(0,0,0,0.8);
-	
-	margin:0% 20% 0% 20%;
 	padding-bottom: 7em;
 }
-@media(max-width:700px){
+@media (min-width: 992px){
+	#survey-form {margin:0% 20% 0% 20%;}
+	#title{
+		color: green;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
  #survey-form{
    margin: 0%;
 }
  #title{
 color:red;
 }
+}
+@media (max-width: 767px){
+	#survey-form {margin:0%;}
+	#title{
+		color: blue;
+	}
 }
 .name,p{
 	padding-left: 15px;
